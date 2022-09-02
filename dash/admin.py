@@ -1,0 +1,20 @@
+from django.contrib import admin
+from . import models
+
+admin.site.register(models.Post)
+admin.site.register(models.Partner)
+admin.site.register(models.Client)
+admin.site.register(models.Gallery)
+admin.site.register(models.Service)
+admin.site.register(models.Project)
+admin.site.register(models.About)
+admin.site.register(models.WhyShooseUs)
+admin.site.register(models.Util)
+admin.site.register(models.Technology)
+admin.site.register(models.Team)
+admin.site.register(models.PublicMail)
+admin.site.register(models.Comment)
+admin.site.register(models.Blog)
+admin.site.register(models.Forum)
+admin.site.register(models.Category)
+admin.site.register(models.Like)
